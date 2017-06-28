@@ -1,9 +1,9 @@
 module.exports = {
-  entry: __dirname + "/RPATaskProducer.js",
+  entry: __dirname + "/jobResultCollector.js",
   target: 'node',
   output: {
     path: __dirname + "/public",
-    filename: "RPATaskProducerBundle.js"
+    filename: "jobResultCollectorBundle.js"
   },
   module: {
     loaders: [
